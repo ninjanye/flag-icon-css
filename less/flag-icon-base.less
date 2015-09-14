@@ -18,11 +18,11 @@
   }
 }
 
-.flag-icon(@country) {
-  .flag-icon-@{country} {
-    background-image: ~"url(@{flag-icon-css-path}@{flag-icon-rect-path}/@{country}.svg)";
+.flag-icon(@isoTwo, @isoThree) {
+  .flag-icon-@{isoTwo}, .flag-icon-@{isoThree} {
+    background-image: ~"url(@{flag-icon-css-path}@{flag-icon-rect-path}/@{isoTwo}.svg)";
     &.flag-icon-squared {
-      background-image: ~"url(@{flag-icon-css-path}@{flag-icon-square-path}/@{country}.svg)";
+      background-image: ~"url(@{flag-icon-css-path}@{flag-icon-square-path}/@{isoTwo}.svg)";
     }
   }
 }
