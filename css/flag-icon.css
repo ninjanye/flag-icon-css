@@ -2010,3 +2010,15 @@
 .flag-icon-zwe.flag-icon-squared {
   background-image: url(../flags/1x1/zw.svg);
 }
+.flag-icon-eng {
+  background-image: url(../flags/4x3/eng.svg);
+}
+.flag-icon-eng.flag-icon-squared {
+  background-image: url(../flags/1x1/eng.svg);
+}
+.flag-icon-sco {
+  background-image: url(../flags/4x3/sco.svg);
+}
+.flag-icon-sco.flag-icon-squared {
+  background-image: url(../flags/1x1/sco.svg);
+}

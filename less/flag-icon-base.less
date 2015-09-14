@@ -26,3 +26,12 @@
     }
   }
 }
+
+.flag-icon(@isoThree) {
+  .flag-icon-@{isoThree} {
+    background-image: ~"url(@{flag-icon-css-path}@{flag-icon-rect-path}/@{isoThree}.svg)";
+    &.flag-icon-squared {
+      background-image: ~"url(@{flag-icon-css-path}@{flag-icon-square-path}/@{isoThree}.svg)";
+    }
+  }
+}
